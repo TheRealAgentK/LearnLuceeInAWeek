@@ -7,6 +7,3 @@ This tutorial is supposed to provide you with the foundation knowledge you'll ne
 This fork is therefore obviously available free of charge and fully open-source as well. All content (text and diagrams) is licensed under the [CC BY license in version 3](http://creativecommons.org/licenses/by/3.0/). Code examples embedded in the text and as separate source files are provided under the [Apache License in version 2](http://www.apache.org/licenses/LICENSE-2.0).
 
 'Learn Lucee in a week' is a work in progress and will rely on the Lucee and wider CFML community to contribute. Please get in touch via the project's Github site, Twitter (@AgentK) or email: kai@ventego-creative.co.nz .
-
-
-
