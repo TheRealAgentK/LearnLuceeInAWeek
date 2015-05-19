@@ -1,6 +1,6 @@
 # Welcome to 'Learn Lucee in a week'.
 
-This tutorial is supposed to provide you with the foundation knowledge you'll need to become productive with the Lucee platform - a technology geared towards building web-based applications is a very easy and highly productive way.
+This tutorial is supposed to provide you with the foundation knowledge you'll need to become productive with the Lucee platform - a technology geared towards building web-based applications in a very easy and highly productive way.
 
 'Learn Lucee in a week' is inspired by and was initially forked from ['Learn CF in a week'](http://www.learncfinaweek.com), created by a variety of contributors from the CFML community: Emily Meyer, Tim Cunningham, David Epler, Sam Farmer, Dave Ferguson, Simon Free, Paul Hastings, Guust Nieuwenhuis, Dan Skaggs, Nic Tunney, Adam Tuttle, Dan Wilson, Mark Escher, Kristin Ferguson, Tiffany Goebel, Nick Borden and Jim Priest. Those fine people have provided a lot of content free of charge and under open-source licenses, please appreciate that.
 
