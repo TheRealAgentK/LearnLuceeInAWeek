@@ -1,0 +1,69 @@
+<p>
+	In this hands on, you are going to add some conditional logic to the site as well as create a form post.
+</p>
+<p>
+	<strong>Tags Used</strong>: <a href="http://help.adobe.com/en_US/ColdFusion/10.0/CFMLRef/WSc3ff6d0ea77859461172e0811cbec22c24-7fe8.html" target="_new">&lt;cfif></a>, <a href="http://help.adobe.com/en_US/ColdFusion/10.0/CFMLRef/WSc3ff6d0ea77859461172e0811cbec22c24-7faf.html" target="_new">&lt;cfparam> </a>
+</p>	
+<p>
+	<ol>
+		<li>
+			Open up the <span class="code">/www/contact.cfm</span> file in your code editor.
+		</li>
+		<li>
+			Locate the comment that reads <span class="code">Message Output</span>.
+		</li>
+		<li>
+			Below the comment, create a <span class="code">&lt;cfif></span> statement that checks if the <span class="code">form.submitted</span> variable is true. Your code should look something like this:
+<pre class="prettyprint">
+&lt;cfif form.submitted&gt;
+					
+&lt;/cfif&gt;
+</pre>
+		</li>
+		<li>
+			Inside the <span class="code">&lt;cfif></span> tag, place the text &lt;p>Your form has been submitted&lt;/p>.
+		</li>
+		<li>
+			Navigate to the <span class="code">/www/contact.cfm</span> page in your browser.
+		</li>
+		<li>
+			Notice that you receive an error stating that 'Element Submitted is undefined in form'. This error is thrown because the <span class="code">form.submitted</span> variable does not exist. When dealing with forms, it is important to provide <span class="code">&lt;cfparam></span> tags that will create the variable if it is not already defined.
+		</li>
+		<li>
+			Go to line 1 of <span class="code">contact.cfm</span> and add the following line of code:
+<pre class="prettyprint">
+&lt;cfparam name="form.submitted" default="0" /&gt;
+</pre>
+		</li>
+		<li>
+			Refresh the page in your browser and notice that the error has been resolved.
+		</li>
+		<li>
+			Locate the <span class="code">&lt;form></span> tag on or around line 109.
+		</li>
+		<li>
+			Update the <span class="code">action</span> attribute to point to <span class="code">contact.cfm</span>.
+		</li>
+		<li>
+			Refresh the page in your browser and click the submit button.
+		</li>
+		<li>
+			Notice that the form was submitted but the text was not displayed. This is because the <span class="code">form.submitted</span> value still does not exist, and the <span class="code">&lt;cfparam></span> is setting that value for us.
+		</li>
+		<li>
+			Locate the closing <span class="code">&lt;form></span> tag on or around line 130.
+		</li>
+		<li>
+			Before the closing <span class="code">&lt;/form></span> tag, add a hidden input called <span class="code">submitted</span> and give it a value of '1'. The tag should look similar to this:
+<pre class="prettyprint">
+&lt;input type="hidden" name="submitted" value="1" /&gt;
+</pre>
+		</li>
+		<li>
+			Refresh the page in your browser and click the submit button.
+		</li>
+		<li>
+			You should now see the text "Your form has been submitted" displayed on the page.
+		</li>
+	</ol>
+</p>
