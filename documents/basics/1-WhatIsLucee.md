@@ -1,4 +1,6 @@
-Lucee is a rapid development platform for building modern web applications on the Java Virtual Machine. Lucee is designed to be expressive and powerful and provides two languages: The Lucee language as well as a compatibility extensionsfor continuing support of CFML (ColdFusion Markup Language). The expressive characteristic of both languages allows you to perform programming tasks at a higher level than a lot of other languages. 
+# What is Lucee?
+
+Lucee is a rapid development platform for building modern web applications on the Java Virtual Machine. Lucee is designed to be expressive and powerful and provides two languages: The Lucee language as well as a compatibility extension for continuing support of CFML (ColdFusion Markup Language). The expressive characteristic of both languages allows you to perform programming tasks at a higher level than a lot of other languages. 
 
 The Lucee platform is built on Java and is agnostic of any particular JEE application server or servlet container. The non-profit Lucee Association Switzerland (LAS) (that is the stalwart of Lucee) has decided that Lucee needs to be able to run on any specification-compliant engine without any built-in customisation necessary on the side of Lucee.
 
