@@ -8,6 +8,6 @@ Lucee is provided in a variety of formats. You can build Lucee from the source, 
 
 // TODO Put in links
 
-While you can have full access to Java and the internals of your JEE platform or servlet container, there's no need to worry about these details. You'll interact with Lucee and the user friendly Lucee language and/or CFML to write your programs. Your Lucee files will use the file extension '.lc' (CFML uses '.cfc' for objects and '.cfm' for pages). Both Lucee and CFML require much less ceremony and infrastructure than typical Java while offering a significantly faster development experience than Java.
+While you can have full access to Java and the internals of your JEE platform or servlet container, there's no need to worry about these details. You'll interact with Lucee and the user friendly Lucee language and/or CFML to write your programs. Your Lucee files will use the file extension '.lucee' (CFML uses '.cfc' for objects and '.cfm' for pages). Both Lucee and CFML require much less ceremony and infrastructure than typical Java while offering a significantly faster development experience than Java.
 
 After taking this 'Lucee in a week' series, you'll have the basics necessary to begin making dynamic web sites, building intranet applications, or even working on the next Facebook competitor!
